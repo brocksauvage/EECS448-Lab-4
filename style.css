@@ -1,0 +1,28 @@
+header
+{
+	font-family: cursive;
+	font-size: 30pt;
+	color: red;
+	text-shadow: 1px 1px #008080
+}
+
+p
+{
+	color: red;
+	font-size: 16 pt;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+table, th, td
+{
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+}
+
+td
+{
+	width: 100px;
+	padding: 10px;
+}
+
+

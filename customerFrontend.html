@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<script src = "formChecker.js"></script>
+		<link href = "style.css"
+		      rel = "stylesheet"
+		      type = "text/css">
+	</head>
+	
+	<body>
+	<header>Welcome to the Instrument Web Store!</header><br>
+		<form onsubmit = "return inputValidation()" action = "customerBackend.php" method = "post">
+		<p>Our Products</p>
+		<table>
+			<tr>
+				<td><b>Product List</b></td>
+				<td><b>Price</b></td>
+				<td><b>Quantity</b></td>
+			<tr>
+				<td>Guitar</td>
+				<td>$200</td>
+				<td><input id = "guitar" type = "type" name = "guitar" size = "3" align = "right"></td>
+			</tr>
+			<tr>
+				<td>Mandolin</td>
+				<td>$300</td>
+				<td><input id = "mandolin" type = "type" name = "mandolin" size= "3" align = "right"></td>
+			</tr>
+			<tr>
+				<td>Banjo</td>
+				<td>$400</td>
+				<td><input id = "banjo" type = "type" name = "banjo" size = "3" align = "right"></td>
+			</tr>
+		</table><br>
+		<p>Shipping Options</p>
+		
+		<input id = "radio1" type = "radio" name = "shipping" value = "0"> Free 7-Day<br>
+		<input id = "radio2" type = "radio" name = "shipping" value = "50"> $50.00 over night<br>
+		<input id = "radio3" type = "radio" name = "shipping" value = "5"> $5.00 three day<br><br>
+
+		<p>Login</p>
+		Username: <input id = "user" type = "type" name = "user"><br>
+		Password: <input id = "pass" type = "type" name = "pass"><br><br>
+		
+		<button type = "submit" value = "Submit">Submit</button>
+  		<button type = "reset" value = "Reset">Reset</button>
+		</form>
+		
+				
+	</body>
+</html>
